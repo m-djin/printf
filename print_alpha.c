@@ -3,7 +3,7 @@
 /**
  * _strlen - returns the length of a string
  * @s: string parameter
- * Return: lenght
+ * Return: length
  */
 
 int _strlen(char *s)
@@ -21,7 +21,7 @@ int _strlen(char *s)
 /**
  * _strlenc - returns the length of a constant char
  * @s: string parameter
- * Return: lenght
+ * Return: length
  */
 
 int _strlenc(const char *s)
