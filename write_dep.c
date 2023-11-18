@@ -72,7 +72,7 @@ int handle_print_string(int is_negative, int ind, char buff[]
 	else if (indicators & F_SPACE)
 		xtr_ch = ' ';
 
-	return (write_num(ind, buff, indicators, span, accuracy,
+	return (print_num(ind, buff, indicators, span, accuracy,
 		length, padding, xtr_ch));
 }
 

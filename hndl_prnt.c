@@ -16,7 +16,7 @@
 int hndle_print(const char *fmt, int *ind, va_list list, char buff[]
 	, int indicators, int span, int accuracy, int sze)
 {
-	int i, unknown_len = 0, prnted_cs = -1;
+	int i, unknown_lent = 0, prnted_cs = -1;
 	fmt_t fmt_types[] = {
 		{'c', prnt_char}, {'s', prnt_string}, {'%', prnt_percent},
 		{'i', prnt_int}, {'d', prnt_int}, {'b', prnt_bin},

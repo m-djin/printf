@@ -94,7 +94,7 @@ int print_unsgnd(int is_negative, int ind,
 char buff[],
 	int indicators, int span, int accuracy, int sze);
 
-int printabilty(char);
+int printability(char);
 int append_hex(char, char[], int);
 int _digit(char);
 

@@ -77,7 +77,7 @@ int prnt_nprintable(va_list types, char buff[]
 
 	while (str[i] != '\0')
 	{
-		if (printabilty(str[i]))
+		if (printability(str[i]))
 			buff[i + off] = str[i];
 		else
 			off += append_hex(str[i], buff, i + off);

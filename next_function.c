@@ -31,7 +31,7 @@ int prnt_unsgnd(va_list types, char buff[]
 	}
 
 	i++;
-	return (prnt_unsgnd(0, i, buff, indicator, span, accuracy, sze));
+	return (print_unsgnd(0, i, buff, indicators, span, accuracy, sze));
 }
 
 /**
@@ -88,7 +88,7 @@ int prnt_octal(va_list types, char buff[]
 int prnt_hexadec(va_list types, char buff[]
 	, int indicators, int span, int accuracy, int sze)
 {
-	return (print_hexa(types, "0123456789abcdef", buff,
+	return (prnt_hexa(types, "0123456789abcdef", buff,
 		indicators, 'x', span, accuracy, sze));
 }
 
@@ -106,7 +106,7 @@ int prnt_hexadec(va_list types, char buff[]
 int print_hexad_upper(va_list types, char buff[]
 	, int indicators, int span, int accuracy, int sze)
 {
-	return (print_hexa(types, "0123456789ABCDEF", buff,
+	return (prnt_hexa(types, "0123456789ABCDEF", buff,
 		indicators, 'X', span, accuracy, sze));
 }
 
