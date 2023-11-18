@@ -6,6 +6,10 @@
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
+ * _putchar - prints the character
+ * @c: The character to print
+ * Return: 1
+ * On error: return -1
  */
 int _putchar(char c)
 {
